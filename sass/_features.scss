@@ -1,0 +1,26 @@
+.features{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    h2{
+        line-height: 45px;
+        margin-bottom: 25px;
+    }
+    li{
+        list-style: none;
+        position: relative;
+        line-height: 25px;
+        margin-bottom: 40px;
+        
+    }
+    li::before{
+        position: absolute;
+        content: "";
+        width: 25px;
+        height: 25px;
+        background: url('../icons/list-item.png');
+        left: -35px;
+    }
+}

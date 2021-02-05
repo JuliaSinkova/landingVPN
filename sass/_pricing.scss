@@ -1,0 +1,74 @@
+.pricing{
+    margin-top: 70px;
+    background-color: #fbfbfb;
+    &__plan{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 70px;
+    }
+    h2{
+       
+        text-align: center;
+        
+    }
+    img{
+        display: block;
+        margin: 0 auto;
+    }
+    ul{
+        margin-top: 40px;
+        font-size: 16px;
+    }
+    h3 {
+        text-align: center;
+        margin-top: 30px;
+    }
+    p {
+        text-align: center;
+        margin-top: 30px;
+        color:  #4F5665;
+        font-size: 16px;
+        line-height: 30px;
+    }
+    li {
+        list-style-type: none;
+        position: relative;
+        margin-top: 20px;
+    }
+    li::before{
+        content: '';
+        position: absolute;
+        left: -30px;
+        background: url('../icons/tick.png');
+        width: 18px;
+        height: 18px;
+    }
+    &__plan-item{
+        background-color: #ffffff;
+        border: 2px solid #dddddd;
+        border-radius: 10px;
+        padding: 40px;
+    }
+    &__price{
+        font-weight: 500;
+        font-size: 30px;
+        text-align: center;
+        margin-top: 100px;
+    }
+    &__btn{
+        width: 177px;
+        height: 40px;
+        margin-top: 20px;
+        font-weight: 500;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &--active{
+        border-color: $main-color;
+    }
+   
+}

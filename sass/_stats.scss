@@ -1,0 +1,24 @@
+.stats {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    box-shadow: 25px 20px 34px -5px rgba(93, 93, 93, 0.2);
+    padding: 50px;
+    &__item{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__image{
+        margin-right: 25px;
+    }
+    &__info-num{
+        font-weight: 500;
+        font-size: 25px;
+    } 
+    &__info-text {
+        color:gray;
+    }
+
+}
